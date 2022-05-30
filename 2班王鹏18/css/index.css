@@ -1,0 +1,384 @@
+.top {
+  background-image: url(../img/index_01.gif);
+  height: 105px;
+}
+.top .logo img {
+  margin-top: 10px;
+  margin-left: 25px;
+  float: left;
+}
+.top .top_r {
+  width: 300px;
+  height: 30px;
+  float: right;
+  margin-top: 20px;
+}
+.top .top_r li:nth-child(4),
+.top .top_r li:nth-child(5) {
+  width: 30px;
+}
+.top .top_r ul li {
+  float: left;
+  width: 70px;
+  height: 17px;
+}
+.top .top_r ul li a {
+  color: #888;
+}
+.top .top_r ul li:nth-child(2) {
+  margin: 0 1px;
+}
+.menu {
+  height: 36px;
+  background-color: red;
+  background-image: url(../img/menubj.jpg);
+  line-height: 32px;
+}
+.menu ul li,
+.menu .hover_div2 li {
+  width: 82px;
+  height: 32px;
+  text-align: center;
+  line-height: 32px;
+}
+.menu > ul > li,
+.menu span {
+  float: left;
+}
+.menu ul li:nth-child(5),
+.menu ul li:nth-child(7),
+.menu ul li:nth-child(9),
+.menu ul li:nth-child(13) {
+  position: relative;
+}
+.menu ul li a,
+.menu span,
+.menu .hover_div1 ul li a {
+  color: #ffffff;
+  font-size: 13px;
+  font-family: 宋体;
+}
+.menu .hover_div1 {
+  width: 140px;
+  height: 0px;
+  background-color: rgb(57, 103, 169);
+  margin: 0 auto;
+  position: absolute;
+  top: 32px;
+  left: -25px;
+  overflow: hidden;
+  transition: height 0.5s;
+}
+
+.menu .hover_div1 ul li {
+  width: 140px;
+  height: 32px;
+}
+
+.menu ul li:nth-child(5):hover .hover_div1,
+.menu .hover_div1:hover {
+  display: block;
+  height: 64px;
+}
+.menu .hover_div2 {
+  width: 86px;
+  height: 0px;
+  background-color: rgb(57, 103, 169);
+  margin: 0 auto;
+  position: absolute;
+  top: 32px;
+  left: -1px;
+  overflow: hidden;
+  transition: height 0.5s;
+}
+.menu ul li:nth-child(7):hover .hover_div2,
+.menu .hover_div2:hover {
+  display: block;
+  height: 160px;
+}
+.menu .hover_div3 {
+  width: 86px;
+  height: 0px;
+  background-color: rgb(57, 103, 169);
+  margin: 0 auto;
+  position: absolute;
+  top: 32px;
+  left: -1px;
+  overflow: hidden;
+  transition: height 0.5s;
+}
+.menu ul li:nth-child(9):hover .hover_div3,
+.menu .hover_div3:hover,
+.menu ul li:nth-child(13):hover .hover_div4,
+.menu .hover_div4:hover {
+  display: block;
+  height: 64px;
+}
+.menu .hover_div4 {
+  width: 86px;
+  height: 0px;
+  background-color: rgb(57, 103, 169);
+  margin: 0 auto;
+  position: absolute;
+  top: 32px;
+  left: -1px;
+  overflow: hidden;
+  transition: height 0.5s;
+}
+.banner {
+  font-size: 0;
+}
+div.container {
+  background-color: #ffffff;
+  height: 710px;
+}
+.container .left {
+  width: 698px;
+}
+.container .left .jwdt > h3 {
+  float: left;
+  width: 672px;
+  height: 35px;
+  background: url(../img/index_11.gif) no-repeat left bottom;
+  text-align: left;
+  font-family: "黑体";
+  font-size: 14px;
+  line-height: 35px;
+  margin-left: 10px;
+}
+.container .left .jwdt {
+  float: left;
+  width: 692px;
+  height: 220px;
+  position: relative;
+}
+.container .left h4 {
+  position: absolute;
+  top: 15px;
+  right: 25px;
+}
+.container .left h4 a {
+  display: block;
+  width: 34px;
+  height: 11px;
+}
+.container .left .jwdt .jwdtl img {
+  width: 260px;
+  height: 170px;
+  position: absolute;
+  margin-left: 10px;
+}
+.container .left .jwdt .jwdtl a {
+  display: block;
+  width: 22px;
+  height: 22px;
+  color: rgb(255, 255, 255);
+  line-height: 15px;
+
+  background-color: rgb(102, 102, 102);
+  float: left;
+  margin-right: 5px;
+  text-align: center;
+}
+
+.container .left .jwdt .jwdtl .shuzi {
+  position: absolute;
+  bottom: 20px;
+  left: 90px;
+  opacity: 0.3;
+  font-size: 15px;
+}
+.container .left .jwdt .jwdtl .text {
+  position: absolute;
+  top: 220px;
+  font-weight: bold;
+  font-size: 12px;
+  left: 30px;
+  font-family: Microsoft Yahei;
+  color: #222222;
+}
+.container .left .jwdt .jwdtr {
+  width: 400px;
+  height: 189px;
+  float: right;
+}
+.container .left .jwdt .jwdtr li {
+  line-height: 26px;
+  font-size: 13px;
+  border-bottom: 1px black dashed;
+  background-image: url(../img/ar.jpg);
+  background-repeat: no-repeat;
+  background-position: left center;
+  text-indent: 20px;
+}
+.container .left .jwdt .jwdtr span,
+.container .left .leftnav .yiyang span {
+  float: right;
+  font-size: 13px;
+  color: #666666;
+  /* padding-right: 10px; */
+}
+.container .left .leftnav {
+  width: 698px;
+  margin-top: 240px;
+  margin-left: 10px;
+}
+.container .left .leftnav .yiyang h3 {
+  width: 305px;
+  height: 35px;
+  margin-left: 10px;
+  font-size: 14px;
+  color: #666666;
+}
+
+.container .left .leftnav .yiyang {
+  width: 330px;
+  height: 245px;
+  background-image: url(../img/index_18.gif);
+  background-position-y: 10px;
+  background-repeat: no-repeat;
+}
+.container .left .leftnav .yiyang li {
+  line-height: 26px;
+  font-size: 13px;
+  border-bottom: 1px black dashed;
+  background-image: url(../img/Snipaste_2022-05-18_21-32-33.png);
+  background-repeat: no-repeat;
+  background-position: left center;
+  text-indent: 20px;
+}
+.yiyang {
+  float: left;
+}
+.yi {
+  margin-left: 20px;
+}
+.container .right {
+  width: 295px;
+  height: 662px;
+  float: right;
+  margin-top: -720px;
+  border-left: 1px solid rgb(239, 239, 239);
+}
+.container .right h2 {
+  width: 295px;
+  height: 32px;
+  background-image: url(../img/index_08.gif);
+}
+.container .right .xtdh {
+  background-image: url(../img/index_15.gif);
+  width: 295px;
+  height: 227px;
+}
+.container .right .xtdh li {
+  width: 75px;
+  height: 28px;
+  float: left;
+  text-align: center;
+  font-size: 13px;
+  font-family: "宋体";
+  margin-top: 70px;
+  margin-right: 12px;
+  margin-left: 8px;
+}
+.container .right .liebiao h3 {
+  width: 280px;
+  height: 36px;
+  background: url(../img/index_22.gif) no-repeat left bottom;
+  text-align: left;
+  font-size: 17px;
+  color: #bf281c;
+  font-family: "黑体";
+  line-height: 30px;
+  padding-left: 12px;
+}
+.container .right .liebiao ul {
+  width: 290px;
+  margin: 0px auto;
+}
+.container .right .liebiao ul li {
+  float: left;
+  list-style-image: url(../img//index_25.gif);
+  list-style-position: inside;
+  border-bottom: 1px dashed #ccc;
+  width: 126px;
+  height: 32px;
+  line-height: 32px;
+  padding-left: 6px;
+  margin-left: 6px;
+}
+.container .right #yqlj {
+  width: 293px;
+  float: left;
+  margin-top: 12px;
+}
+.container .right .yuanli {
+  width: 290px;
+  height: 150px;
+  line-height: 150px;
+  float: left;
+  margin-top: 16px;
+  background: url(../img/yuanli.jpg) no-repeat center center;
+}
+.container .right .yuanli .lefttime {
+  float: left;
+  width: 120px;
+  height: 120px;
+  color: #000000;
+  text-align: center;
+  line-height: 20px;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+.container .right .yuanli .lefttime .juzhong {
+  margin: 0 auto;
+  width: 100px;
+  height: 105px;
+  background-color: white;
+}
+.container .right .yuanli .lefttime .juzhong span {
+  display: block;
+}
+.container .right .yuanli .lefttime .juzhong .first {
+  font-weight: bold;
+  color: #222222;
+  margin-top: 25px;
+}
+.container .right .yuanli .lefttime .juzhong .second {
+  font-weight: bold;
+  font-size: 12pt;
+  color: rgb(255, 0, 0);
+  font-family: 宋体;
+}
+.container .right .yuanli .lefttime .juzhong .third {
+  font-size: 9pt;
+  color: rgb(34, 34, 34);
+  font-family: 宋体;
+}
+.container .right .yuanli .rightweek {
+  text-align: center;
+  font-weight: 800;
+  float: right;
+  width: 140px;
+  height: 120px;
+}
+.container .right .yuanli .rightweek div {
+  font-size: 42px;
+  color: red;
+}
+.footer {
+  height: 69px;
+  background: url(../img//bottom.jpg) repeat-x 0px 0px;
+  padding-top: 50px;
+}
+.footer .footerp {
+  margin: 0px auto;
+  line-height: 26px;
+  width: 800px;
+  text-align: center;
+  color: #fff;
+  height: 26px;
+}
+.footer #footerfirst span {
+  color: rgb(102, 102, 102);
+}
